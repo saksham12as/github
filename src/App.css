@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #4b6cb7, #182848);
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #fff; /* Add a border at the bottom */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color:black;
+}
+.nav li{
+  background-color: aquamarine;
+  padding: 10px;
+  border-radius: 15px;
+  list-style: none;
+  text-align: center;
+  
+}
+.nav li:hover{
+  background-color: #16a085; /* Change hover color */
+}
+.nav li a{
+  text-decoration: none;
+}
+
+.container {
+  margin: 20px;
+}
+.homebtns {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #4b6cb7, #182848);
+  padding: 20px; /* Add padding for better spacing */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+}
+
+.homebtns button {
+  padding: 70px 70px; /* Adjust padding for button size */
+  font-size: 36px; /* Adjust font size */
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  background-color: aquamarine; /* Change button color */
+  color: black; /* Change text color to white */
+  transition: background-color 0.3s ease;
+}
+
+.homebtns button:hover {
+  background-color: #16a085; /* Change hover color */
+}
+
+
+.movielist {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  width: auto;
+  max-width: 300px;
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card h2 {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.card.high-vote {
+  background-color: #f0f8ff;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #555;
+}
+
+.search input{
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  margin-right: 5px;
+}
+.search button{ 
+   background-color:aquamarine ;
+   padding: 10px;
+   border-radius: 15px;
+   text-align: center;
+   border: none;
+}
+.search button:hover {
+  background-color: #16a085; /* Change hover color */
+}
+
